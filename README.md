@@ -4,7 +4,7 @@ The project consists in developing a prototype of an indoor positioning system (
 IPSs are often adopted in the context of smart buildings and healthcare (hospitals, clinics …) and our idea is to use trilateration algorithms and beacons for positioning the users (or patients) in a room.
 The system is composed by two smartphone apps (Android and IOS), which receives the beacon signals. Then the signals are sent to a Node.js server, which computes the positions and allows visualizing the movements of the user inside the room providing a simple Web interface.
 
-## Authors
+## Initial Authors
 
 * **Andrea Canepa** - *4076249@studenti.unige.it*
 * **Giacomo Masi** - *4083102@studenti.unige.it*
@@ -29,3 +29,9 @@ Before deploying the React Native App, install the project's dependencies in the
 ```
 npm install
 ```
+In the react-native app , add this library for better results , since this library is not updated by the author on the npm website
+
+```
+npm i MacKentoch/react-native-beacons-manager
+```
+
